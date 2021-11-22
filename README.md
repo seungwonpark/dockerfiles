@@ -3,8 +3,8 @@
 ## build
 
 ```bash
-DOCKER_BUILDKIT=1 docker build -f audio.dockerfile .
-DOCKER_BUILDKIT=1 docker build --build_arg BASE_IMAGE=<base_image> -f audio.dockerfile .
+DOCKER_BUILDKIT=1 docker build -t <tag:version> -f audio.dockerfile .
+DOCKER_BUILDKIT=1 docker build --build_arg BASE_IMAGE=<base_image> -t <tag:version> -f audio.dockerfile .
 ```
 
 ## some references
