@@ -24,3 +24,4 @@ WORKDIR /root/git
 RUN git clone --branch 1.0.0 https://github.com/seungwonpark/dotfiles
 WORKDIR /root/git/dotfiles
 RUN ./setup.sh
+WORKDIR /root/git
