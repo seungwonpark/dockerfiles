@@ -8,6 +8,7 @@ RUN --mount=type=cache,id=apt-dev,target=/var/cache/apt \
 	tmux \
 	htop \
 	ncdu \
+	ffmpeg \
 	zip && \
     rm -rf /var/lib/apt/lists/*
 RUN pip3 uninstall -y torchtext tensorboard-plugin-dlprof
